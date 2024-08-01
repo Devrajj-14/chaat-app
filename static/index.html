@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="chatbox" class="card">
+            <div class="card-header text-center">
+                <h5>Real-Time Chat</h5>
+            </div>
+            <ul id="messages" class="list-group list-group-flush"></ul>
+            <div id="message" class="card-footer">
+                <div class="input-group">
+                    <input type="text" id="messageInput" class="form-control" placeholder="Type your message...">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" onclick="sendMessage()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
